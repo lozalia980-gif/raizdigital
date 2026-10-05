@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tecnologías | Raíz Digital</title>
+  <meta name="description" content="Tecnologías digitales que ayudan a cuidar el medio ambiente: satélites, sensores, apps y energías renovables.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progreso-lectura"></div>
+
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a href="index.html" class="logo"><i class="fa-solid fa-leaf"></i> Raíz Digital</a>
+      <button class="btn-menu" aria-label="Abrir menú" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sociedad.html">Sociedad del conocimiento</a></li>
+        <li><a href="tecnologias.html" class="activo" aria-current="page">Tecnologías</a></li>
+        <li><a href="ciudadania.html">Ciudadanía ambiental</a></li>
+        <li><a href="fuentes.html">Fuentes</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="portada">
+      <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1600&q=80" alt="" data-parallax="0.08">
+      <div class="contenedor">
+        <p class="migas"><a href="index.html">Inicio</a> / Tecnologías</p>
+        <h1>Tecnologías al servicio del ambiente</h1>
+        <p>Estas son algunas herramientas que hoy se usan para conocer, medir y proteger la naturaleza.</p>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="reveal">
+          <h2>Herramientas que ya existen</h2>
+          <p>Elige una categoría para filtrar las tarjetas.</p>
+        </div>
+        <div class="filtros reveal" role="group" aria-label="Filtrar tecnologías">
+          <button class="filtro activo" data-filtro="todas" type="button">Todas</button>
+          <button class="filtro" data-filtro="monitoreo" type="button">Monitoreo</button>
+          <button class="filtro" data-filtro="energia" type="button">Energía y agua</button>
+          <button class="filtro" data-filtro="participacion" type="button">Participación</button>
+          <button class="filtro" data-filtro="reciclaje" type="button">Reciclaje</button>
+        </div>
+        <div class="rejilla tres">
+          <article class="tarjeta reveal" data-categoria="monitoreo">
+            <div class="icono azul"><i class="fa-solid fa-satellite"></i></div>
+            <h3>Satélites y teledetección</h3>
+            <p>Las imágenes tomadas desde el espacio permiten ver cómo cambian los bosques, los glaciares o las ciudades con el paso del tiempo.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Global Forest Watch muestra alertas de pérdida de bosque.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="monitoreo">
+            <div class="icono "><i class="fa-solid fa-wifi"></i></div>
+            <h3>Sensores conectados</h3>
+            <p>Pequeños aparatos miden la calidad del aire, la temperatura o el nivel de un río y envían los datos por internet.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Redes de estaciones que reportan la calidad del aire de una ciudad.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="energia">
+            <div class="icono sol"><i class="fa-solid fa-solar-panel"></i></div>
+            <h3>Energías renovables</h3>
+            <p>Paneles solares y turbinas eólicas producen electricidad sin quemar combustibles fósiles. Los sistemas inteligentes ayudan a repartir la energía mejor.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Parques eólicos y techos con paneles solares.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="participacion">
+            <div class="icono "><i class="fa-solid fa-mobile-screen"></i></div>
+            <h3>Aplicaciones de ciencia ciudadana</h3>
+            <p>Cualquier persona con un celular puede aportar datos científicos reales fotografiando y registrando seres vivos.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> iNaturalist y eBird.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="monitoreo">
+            <div class="icono azul"><i class="fa-solid fa-brain"></i></div>
+            <h3>Inteligencia artificial y datos</h3>
+            <p>Los programas pueden analizar muchísima información para ayudar a predecir el clima, detectar incendios o estudiar especies.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Modelos que analizan imágenes de satélite para detectar cambios en el terreno.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="reciclaje">
+            <div class="icono "><i class="fa-solid fa-recycle"></i></div>
+            <h3>Plataformas de reciclaje y economía circular</h3>
+            <p>Aplicaciones y mapas en línea ayudan a encontrar centros de acopio y a darle una segunda vida a los materiales.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Mapas digitales de puntos de reciclaje de una comunidad.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="energia">
+            <div class="icono azul"><i class="fa-solid fa-droplet"></i></div>
+            <h3>Riego y agricultura de precisión</h3>
+            <p>Con sensores de humedad y datos del clima se riega solo cuando hace falta, lo que ahorra agua y mejora la cosecha.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Sistemas de riego por goteo con sensores de humedad.</p>
+          </article>
+          <article class="tarjeta reveal" data-categoria="participacion">
+            <div class="icono sol"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3>Redes sociales y campañas digitales</h3>
+            <p>Bien usadas, sirven para informar, organizar limpiezas y denunciar problemas ambientales en pocas horas.</p>
+            <p class="ejemplo"><strong>Ejemplo:</strong> Convocatorias a jornadas de limpieza de playas y ríos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion fondo">
+      <div class="contenedor dividido">
+        <div class="dividido-img destapar inclinar">
+          <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1000&q=80" alt="Brote verde naciendo de la tierra" loading="lazy">
+        </div>
+        <div class="reveal">
+          <h2>La tecnología sola no basta</h2>
+          <p>Un satélite puede detectar que se está perdiendo un bosque, pero alguien tiene que leer esa alerta y actuar. Por eso la tecnología funciona mejor cuando se combina con personas informadas y comunidades organizadas.</p>
+          <a class="enlace-flecha" href="ciudadania.html">Ver cómo participar <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="aviso reveal">
+          <i class="fa-solid fa-plug-circle-exclamation"></i>
+          <div>
+            <h3>Ojo: la tecnología también deja huella</h3>
+            <p>Fabricar celulares y computadoras gasta materiales y energía, y los centros de datos consumen mucha electricidad. Además, los aparatos viejos se convierten en residuos electrónicos.</p>
+            <p>Usar la tecnología de forma responsable significa alargar la vida de los aparatos, repararlos cuando se pueda y reciclarlos en lugares adecuados.</p>
+          </div>
+        </div>
+        <div class="botones" style="justify-content:center;margin-top:2.5rem">
+          <a href="ciudadania.html" class="boton">Siguiente: ciudadanía ambiental <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie-grid">
+        <div>
+          <a href="index.html" class="logo"><i class="fa-solid fa-leaf"></i> Raíz Digital</a>
+          <p>Proyecto escolar sobre la sociedad del conocimiento, las nuevas tecnologías y el cuidado del medio ambiente.</p>
+        </div>
+        <div>
+          <h3>Páginas</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sociedad.html">Sociedad del conocimiento</a></li>
+            <li><a href="tecnologias.html">Tecnologías</a></li>
+            <li><a href="ciudadania.html">Ciudadanía ambiental</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Más</h3>
+          <ul>
+            <li><a href="fuentes.html">Fuentes y créditos</a></li>
+            <li><a href="fuentes.html#proyecto">Sobre el proyecto</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="pie-final">&copy; <span id="anio">2026</span> Raíz Digital. Trabajo con fines educativos.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
